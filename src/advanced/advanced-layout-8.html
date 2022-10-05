@@ -7,6 +7,42 @@
     <link rel="stylesheet" href="../style.css" />
     <style>
       /* Doe hier jouw ding! */
+      body {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0.5em;
+        padding: 0.5em;
+        margin: 0 auto;
+        max-width: 20em;
+        height: 100vh;
+      }
+
+      header {
+        grid-area: 1 / 1 / 2 / 2;
+        z-index: 2;
+        clip-path: polygon(0 0, 100% 0%, 75% 100%, 0 84%);
+      }
+
+      nav {
+        grid-area: 3 / 1 / 4 / 2;
+        z-index: 2;
+        margin: 2em 0 1em 2em;
+      }
+
+      main {
+        grid-area: 1 / 1 / 4 / 3;
+        z-index: 1;
+        margin: 1em;
+        margin-bottom: 2em;
+      }
+
+      footer {
+        grid-area: 3 / 2 / 4 / 3;
+        z-index: 2;
+        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+        margin-left: 1em;
+      }
     </style>
   </head>
   <body id="advanced-layout-8">
