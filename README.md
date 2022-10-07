@@ -1,6 +1,6 @@
-> _Fork_ deze deeltaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+<h2>Grid in CSS</h2>
 
-# Layout in CSS
+<br>
 
-Een oefening in document layout met CSS.
+<img width="1008" alt="Schermafbeelding 2022-10-05 om 12 26 31" src="https://user-images.githubusercontent.com/112857444/194490228-29955eb7-4d48-4cb7-8f7f-c8a13f60dce1.png">
+
